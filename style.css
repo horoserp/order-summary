@@ -15,6 +15,7 @@
   /* Primary */
   --Pale_blue: hsl(225, 100%, 94%);
   --Bright_blue: hsl(245, 75%, 52%);
+  --White: hsl(360, 100%, 100%);
 
   /* Neutral */
   --Very_pale_blue: hsl(225, 100%, 98%);
@@ -29,6 +30,97 @@ html {
 body {
   font-family: "Main";
   font-weight: 500;
+}
+
+:where(h1, .content > p, .button, .cancel) {
+  text-align: center;
+}
+
+:where(h1, .content > p, .plan-container, .button) {
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 28px;
+  font-weight: 900;
+}
+
+p {
+  color: var(--Desaturated_blue);
+  line-height: 1.5;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: var(--Pale_blue);
+  background-image: url("./assets/images/pattern-background-desktop.svg");
+  background-repeat: no-repeat;
+}
+
+section {
+  display: inherit;
+  flex-direction: column;
+  width: 450px;
+  height: 696px;
+  gap: 40px;
+  background-color: var(--White);
+  border-radius: 20px;
+}
+
+.img-container img {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.content {
+  padding: 0 50px;
+}
+
+.plan-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--Very_pale_blue);
+  padding: 25px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+}
+
+.plan-details {
+  display: inherit;
+}
+
+.plan-details img {
+  margin-right: 20px;
+}
+
+h2 {
+  color: var(--Dark_blue);
+  font-size: 16px;
+  font-weight: 900;
+}
+
+.change {
+  color: var(--Bright_blue);
+  text-decoration: underline;
+  font-weight: 900;
+}
+
+.button {
+  width: 100%;
+  background-color: var(--Bright_blue);
+  color: var(--Very_pale_blue);
+  font-weight: 700;
+  padding: 16px;
+  border-radius: 12px;
+}
+
+.cancel {
+  color: var(--Dark_blue);
+  font-weight: 700;
 }
 
 /* Extra small devices (phones, 600px and down) */

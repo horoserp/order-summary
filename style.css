@@ -57,7 +57,7 @@ main {
   height: 100vh;
   background-color: var(--Pale_blue);
   background-image: url("./assets/images/pattern-background-desktop.svg");
-  background-repeat: no-repeat;
+  background-repeat: repeat-x;
 }
 
 section {

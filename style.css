@@ -125,6 +125,27 @@ h2 {
   font-weight: 700;
 }
 
+.change:active {
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.button:active {
+  background-color: hsl(245, 75%, 52%, 0.8);
+}
+
+.cancel:active {
+  font-weight: 900;
+}
+
+@media (hover: hover) {
+  .change,
+  .button,
+  .cancel {
+    cursor: pointer;
+  }
+}
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
 }

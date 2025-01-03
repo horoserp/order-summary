@@ -1,6 +1,6 @@
 {
-    "name": "NFT Preview Card | FEM",
-    "short_name": "NFT Card",
+    "name": "Order Summary Preview | FEM",
+    "short_name": "Order Summary",
     "icons": [
       {
         "src": "https://horoserp.github.io/order-summary/assets/icons/web-app-manifest-192x192.png",

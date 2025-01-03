@@ -148,6 +148,49 @@ h2 {
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+  main {
+    background-image: url("./assets/images/pattern-background-mobile.svg");
+  }
+
+  section {
+    width: 327px;
+    height: 565px;
+    gap: 25px;
+  }
+
+  .img-container img {
+    width: 327px;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+
+  .content {
+    padding: 0 30px;
+  }
+
+  .plan-container {
+    padding: 18px;
+    /* align-items: center; */
+  }
+
+  .plan-container,
+  h2 {
+    font-size: 14px;
+  }
+
+  .plan-details {
+    align-items: center;
+  }
+
+  .change {
+    font-size: 12px;
+  }
+
+  h2 {
+    font-weight: 700;
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
